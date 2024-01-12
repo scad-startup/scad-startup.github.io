@@ -2132,13 +2132,13 @@ a:hover {
   .tab-link {
     margin-top: var(--spacing-200);
     margin-bottom: var(--spacing-200);
-    padding: var(--spacing-400) var(--spacing-300);
     flex-direction: column;
     margin-left: 0;
+    padding-left: 16px;
+    padding-right: 16%;
   }
 
   .tab-link.w--current {
-    padding: var(--spacing-400) var(--spacing-300);
     margin-left: 0;
   }
 
@@ -2155,6 +2155,12 @@ a:hover {
     padding-right: 12px;
   }
 
+  .col._2col.overflow-visible {
+    order: -1;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .col._2col.tab-menu {
     padding-left: 0;
   }
@@ -2166,8 +2172,6 @@ a:hover {
 
   .row.flex-center {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2519,6 +2523,10 @@ a:hover {
   .col {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .col._2col.overflow-visible {
+    order: 0;
   }
 
   .col._2col.tab-menu {

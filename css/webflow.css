@@ -1714,7 +1714,7 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse="medium"] .w-nav-button {
-    /* display: block; */
+    display: block;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1722,7 +1722,7 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse="small"] .w-nav-button {
-    /* display: block; */
+    display: block;
   }
   .w-nav-brand {
     padding-left: 10px;
@@ -1733,7 +1733,7 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse="tiny"] .w-nav-button {
-    /* display: block; */
+    display: block;
   }
 }
 .w-tabs {

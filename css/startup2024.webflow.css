@@ -1689,6 +1689,10 @@ a:hover {
   display: flex;
 }
 
+.sponsorscenterwrapper.partners {
+  display: none;
+}
+
 .heading {
   text-transform: capitalize;
   margin-bottom: 12px;
@@ -1699,7 +1703,7 @@ a:hover {
   max-width: 1004px;
 }
 
-.div-block-40 {
+.sponsordiv {
   padding-top: var(--spacing-450);
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -2344,17 +2348,17 @@ a:hover {
 }
 
 .page-hero--section.team {
-  background-image: linear-gradient(81deg, #000, rgba(255, 255, 255, 0) 69%), linear-gradient(#000, rgba(255, 255, 255, 0)), url('../images/image-40.jpg');
+  background-image: linear-gradient(81deg, var(--black), rgba(255, 255, 255, 0) 69%), linear-gradient(to bottom, var(--black), rgba(255, 255, 255, 0)), url('../images/image-40.jpg');
   background-position: 0 0, 0 0, 100%;
   background-size: auto, auto, cover;
 }
 
 .page-hero--section.infomaton {
-  background-image: linear-gradient(#000, rgba(255, 255, 255, 0)), url('../images/StartUp2023_Q_Finals-81.jpg');
+  background-image: linear-gradient(to bottom, var(--black), rgba(255, 255, 255, 0)), url('../images/StartUp2023_Q_Finals-81.jpg');
 }
 
 .page-hero--section.workshop {
-  background-image: linear-gradient(#000, rgba(255, 255, 255, 0)), url('../images/StartUp2023_Q_Finals-85.jpg');
+  background-image: linear-gradient(to bottom, var(--black), rgba(255, 255, 255, 0)), url('../images/StartUp2023_Q_Finals-85.jpg');
 }
 
 .scetion-description {
@@ -3262,8 +3266,9 @@ a:hover {
     background-color: var(--dark-color);
   }
 
-  .div-block-40 {
+  .sponsordiv {
     text-align: center;
+    flex-direction: column;
   }
 
   .paragraph {

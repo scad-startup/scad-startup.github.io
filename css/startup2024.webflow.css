@@ -1690,7 +1690,8 @@ a:hover {
 }
 
 .sponsorscenterwrapper.partners {
-  display: none;
+  margin-top: 59px;
+  display: flex;
 }
 
 .heading {
@@ -2145,7 +2146,6 @@ a:hover {
 
 .logo-link {
   width: 150px;
-  height: 48px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -2594,6 +2594,17 @@ a:hover {
   opacity: .8;
   text-transform: uppercase;
   font-weight: 300;
+}
+
+.scadamp-img {
+  margin-top: -10px;
+}
+
+.sponsordiv---bottom {
+  padding-top: var(--spacing-450);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -3464,6 +3475,11 @@ a:hover {
     grid-column-gap: var(--spacing-600);
     grid-row-gap: var(--spacing-600);
   }
+
+  .sponsordiv---bottom {
+    text-align: center;
+    flex-direction: column;
+  }
 }
 
 #w-node-af6ac8e3-b1ce-cda6-23dc-a32b43a6a065-c2979dcd {
@@ -3559,6 +3575,14 @@ a:hover {
 }
 
 #w-node-_21f39992-60a4-8bf8-4d1d-0d150b78824a-1dba0db8 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_28855a64-d9fb-f264-9425-8b1f57606ebf-1dba0db8 {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+#w-node-_28855a64-d9fb-f264-9425-8b1f57606ed0-1dba0db8 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
